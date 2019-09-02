@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Super Cool Cats App!!!</title>
+  </head>
+  <body>
+    <h1>New Cat</h1>
+
+    <form action="/cats" method="POST">
+      <div>
+        <label for="name">Name: </label>
+        <input
+          name="name"
+          id="name"
+          type="text"
+          placeholder="Enter a name for the cat."
+        />
+      </div>
+
+      <div>
+        <input type="submit" value="Create Cat" />
+      </div>
+    </form>
+  </body>
+</html>
